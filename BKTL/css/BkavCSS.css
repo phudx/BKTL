@@ -1,0 +1,875 @@
+﻿/*<author>
+ Bkav Corp. - BPTHT
+ Project: CSS
+ Create Date: 22012017
+ Author: CCS
+ Description: Phần style chung không được sửa
+ ************************************************* 
+ - [Email người sửa] - [yyyyMMdd]: [Lý do sửa ...]
+ </author>
+ <summary>
+ Chú thích ngắn gọn Chú thích chức năng, nhiệm vụ của class tương ứng.
+ </summary>
+ */
+
+/*Phần Style chung
+    *************************************************  
+ */
+/*Khối Header*/
+/*Mô tả: Khối chứa các Style của phần Header - Baner trên Website*/
+html, body, div, dl, dt, dd, ul, h1, h2, h3, pre, form, label, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.divMain {
+    width: 100%;
+}
+
+.divBody {
+    width: 100%;
+}
+
+.divHeader {
+    height: 40px;
+    background-color: #0073a9;
+}
+
+.divImgHeader {
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.imgLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-img-acount {
+    margin-top: 5px;
+    margin-right: 14px;
+    float: right;
+}
+
+.divimg-circle {
+    padding-left: 4px;
+}
+/*Kết thúc khối Header*/
+/*Khối Style các Menu, Tabs*/
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li > a,
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li > a:focus {
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+}
+
+    .with-nav-tabs.tab-bkav-primary .nav-tabs > .open > a,
+    .with-nav-tabs.tab-bkav-primary .nav-tabs > .open > a:hover,
+    .with-nav-tabs.tab-bkav-primary .nav-tabs > .open > a:focus,
+    .with-nav-tabs.tab-bkav-primary .nav-tabs > li > a:hover,
+    .with-nav-tabs.tab-bkav-primary .nav-tabs > li > a:focus {
+        color: #fff;
+        border-color: transparent;
+        padding-bottom: -1px;
+        height: 100%;
+    }
+
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li.active > a,
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.tab-bkav-primary .nav-tabs > li.active > a:focus {
+    color: #0e4377;
+    background-color: #fff;
+    border-bottom-color: transparent;
+}
+
+.tabs-background-color-bkav {
+    background-color: #004c6f; /*height: 30px;*/
+}
+
+.tab-bkav {
+    height: 30px;
+    background-color: #004c6f;
+    padding: 0 7px 0px 7px;
+}
+
+.nav-tabs-bkav {
+    background-color: #004c6f;
+    height: 100%;
+}
+
+.tab-bkav-primary {
+    /*border: 7px solid #e0e0e0;*/
+    /*padding:0 7px 7px 7px;*/
+    border-top: 0px;
+    overflow: hidden;
+}
+/*Khối InPut
+    Mô tả: Đây là khối nhập dữ liệu đầu vào cho Website
+    Gồm các thành phân: DIV chứa các control Textbox, DropdownList, Label, Button*/
+/*Class: input-text-bkav - TextBox*/
+.divFilter {
+    height: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.divBkav-body {
+    border: 7px solid #e0e0e0;
+    padding: 0 7px 7px 7px;
+    border-top: 0px;
+    overflow: hidden;
+}
+
+.div-filter-two-row {
+    height: 70px;
+}
+
+.input-text-bkav {
+    color: #363636;
+    height: 21px;
+    border-radius: 0px 0px;
+    padding-left: 4px;
+    border: 1px solid #a9a9a9;
+}
+
+.input-text-bkav-14 {
+    height: 22px;
+    color: #363636;
+    border-radius: 0px 0px;
+    padding-left: 4px;
+    margin-left: 4px;
+}
+/*Class: input-text-bkav-4 kế thừa input-text-bkav và thêm margin-left*/
+.input-text-bkav.input-text-bkav-4 {
+    margin-left: 4px;
+    padding-left: 0px;
+}
+/*Button*/
+.btn-default-bkav {
+    font-family: Helvetica Neue,Arial, sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    min-width: 60px;
+    max-width: 245px;
+    height: 22px;
+    color: #F7F8FC;
+    background-color: #1967b2;
+    border-color: #1967b2;
+    vertical-align: middle;
+}
+
+    .btn-default-bkav.btn-bkav {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+.btn-bkav-right {
+    margin-right: 3px;
+    text-align: center;
+}
+
+.btn-bkav-customer {
+    height: 22px;
+    font-size: 14px;
+    background-image: url('../Images/icon/search.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-search {
+    width: 73px !important;
+}
+
+.btn-clear {
+    background-image: url('../Images/icon/Del-Filter.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Radio*/
+.radio-bkav, .checkbox-bkav {
+    height: 12px;
+    width: 12px;
+    margin-left: -16px !important;
+}
+
+
+.radio-inline-bkav, .checkbox-inline-bkav {
+    margin-left: 3px !important;
+}
+/*Căn phần Text trong Textbox sau Radio cách nhau 4px*/
+.radio-text-bkav, .checkbox-text-bkav {
+    margin-left: -5px;
+}
+
+.sp-m-left-5 {
+    margin-left: -5px;
+}
+
+.ddlBkav {
+    position: relative;
+    padding: 2px 5px 2px 4px;
+    color: #333 !important;
+    -webkit-appearance: none;
+    background-image: url('Images/dropdown-list.png');
+    background-position: 88px;
+    background-repeat: no-repeat;
+    text-indent: 0.01px; /*In Firefox*/
+    background-position: 100%;
+    opacity: 1;
+    padding-inline-end: 20px;
+    -moz-appearance: none;
+    border: #bdbdbd solid 1px;
+    appearance: none;
+    background-size: contain;
+    height: 21px;
+    margin-left: 7px;
+}
+
+.ddl {
+    border: 1px solid #bdbdbd;
+    height: 21px;
+    text-indent: 0.01px;
+    position: relative;
+}
+
+.ddlBkav-14 {
+    height: 24px;
+    margin-top: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+select option:checked:after {
+    content: attr(title);
+    background: #e0e0e0;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border: none;
+}
+
+/*select > option:hover {
+    color: #333;
+    background: #e0e0e0;
+}*/
+
+fieldset {
+    border: 1px solid #bdbdbd !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend {
+    width: inherit;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    border-bottom: none;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #1470ca;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+    legend > a {
+        text-decoration: none;
+        color: #333;
+    }
+
+/*Class: divStar (Dấu * đỏ cách các control khác 4px)*/
+.divStar {
+    display: inline-block;
+}
+
+    .divStar > a {
+        color: red;
+    }
+
+/*Khối hiển thị dữ liệu gòm có: Table*/
+.table-default > thead > tr > th,
+.table-default > tbody > tr > th, .table-default > tfoot > tr > th,
+.table-default > thead > tr > td, .table-default > tbody > tr > td,
+.table-default > tfoot > tr > td {
+    padding: 5px 6px 5px 6px;
+    line-height: 16px;
+}
+
+.table-default > thead > tr > th {
+    background-color: #1967b2;
+    color: #fff;
+}
+/*Bảng có font 12px*/
+.table-font-default {
+    font-size: 12px;
+    font-family: Helvetica Neue,Arial, sans-serif;
+}
+
+    .table-font-default > thead > tr > th {
+        height: 30px;
+    }
+/*Bảng hiển thị với font chữ 14px*/
+.table-font-custom > thead > tr > th,
+.table-font-custom > tbody > tr > th,
+.table-font-custom > tfoot > tr > th,
+.table-font-custom > thead > tr > td,
+.table-font-custom > tbody > tr > td,
+.table-font-customt > tfoot > tr > td .table-font-custom {
+    padding: 9px 6px 9px 6px;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+/*Đối với bảng có font chữ 12 kế thừa các thuộc tính */
+.table-bkav-w > tbody > tr > td {
+    font-size: 12px;
+    padding-top: 9px;
+}
+
+.table-pu {
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial, sans-serif;
+}
+
+    .table-pu > tbody > tr > td {
+        padding-top: 9px;
+    }
+
+.table-bkav-w-14 > tbody > tr > td {
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+.table-tr-one > td {
+    padding: 0px;
+}
+
+/*.table-tr-two > td {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}*/
+/*Các thành phần con trong bảng gồm tr, td*/
+.td-col-OrdinalNumber {
+    width: 1px;
+    text-align: center;
+}
+
+.td-col-sex {
+    text-align: center;
+    width: 62px;
+}
+
+.td-col-name {
+    width: 150px;
+    text-align: left;
+}
+
+.td-col-email {
+    width: 140px;
+    text-align: center;
+}
+
+.td-col-phone {
+    width: 120px;
+    text-align: center;
+}
+
+.td-col-address {
+    text-align: left;
+}
+
+.td-col-datetime {
+    width: 80px;
+    text-align: center;
+}
+
+.td-col-amount {
+    width: 100px;
+    text-align: right;
+}
+
+.td-col-funtion {
+    padding: 0px !important;
+    width: 100px;
+    text-align: right;
+}
+
+.td-col-Description {
+    width: 300px;
+    text-align: left;
+}
+
+.td-Status {
+    text-align: center;
+    width: 80px;
+}
+
+.td-Status-14 {
+    text-align: center;
+    width: 100px;
+}
+
+.td-Note {
+    width: 70px;
+}
+/* DIV */
+
+.divTable {
+    display: table;
+    width: 100%;
+    margin-top: -13px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+
+.imgIcon {
+    padding-right: 11px;
+}
+
+.imgIconRight {
+    padding-right: 12px;
+}
+
+.fieldset-top, .fieldset-bottom {
+    overflow: hidden;
+}
+
+.divTableRow {
+    display: table-row;
+    white-space: nowrap;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    border: 0px solid #999999;
+    display: table-cell;
+    padding: 3px 0px;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.divbutton {
+    padding: 15px;
+    text-align: right;
+}
+
+.divName {
+    width: 51px;
+}
+
+.divfieldset {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:5px;
+}
+/*Thành phần của bảng vẽ bằng Div*/
+.td-divtable-name {
+    width: 50px;
+}
+
+.td-divtable-input-name {
+    width: 230px;
+}
+/*Khối phân trang*/
+.pagination-bkav {
+    display: inline-block;
+    padding-left: 0;
+    margin: 5px 0;
+    float: left;
+}
+
+    .pagination-bkav > li {
+        display: inline;
+    }
+
+        .pagination-bkav > li > a,
+        .pagination-bkav > li > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px 6px 0px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #333;
+            text-decoration: none;
+            background-color: #fff;
+        }
+
+        .pagination-bkav > li:first-child > a,
+        .pagination-bkav > li:first-child > span {
+            margin-left: 0;
+        }
+
+        .pagination-bkav > li:last-child > a,
+        .pagination-bkav > li:last-child > span {
+        }
+
+        .pagination-bkav > li > a:hover,
+        .pagination-bkav > li > span:hover,
+        .pagination-bkav > li > a:focus,
+        .pagination-bkav > li > span:focus {
+            z-index: 3;
+            color: #23527c;
+        }
+
+    .pagination-bkav > .active > a,
+    .pagination-bkav > .active > span,
+    .pagination-bkav > .active > a:hover,
+    .pagination-bkav > .active > span:hover,
+    .pagination-bkav > .active > a:focus,
+    .pagination-bkav > .active > span:focus {
+        z-index: 2;
+        color: #fff;
+        cursor: default;
+        color: #337ab7;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .pagination-bkav > .disabled > span,
+    .pagination-bkav > .disabled > span:hover,
+    .pagination-bkav > .disabled > span:focus,
+    .pagination-bkav > .disabled > a,
+    .pagination-bkav > .disabled > a:hover,
+    .pagination-bkav > .disabled > a:focus {
+        color: #777;
+        cursor: not-allowed;
+        background-color: #fff;
+        border-color: #ddd;
+    }
+
+.div-pagging {
+    font-size: 14px;
+}
+/*Khối Icon*/
+.icon-add {
+    background: url('../Images/icon/icon-add.png')0 0 no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-delete {
+    background: url('../Images/icon/icon-delete.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+}
+
+.icon-edit {
+    background: url('../Images/icon/icon-edit.png')0 0 no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+.icon-dowload {
+    background: url('../Images/icon/icon-dowload.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+}
+
+.icon-addCustomer {
+    background: url('../Images/icon/icon-addCustomer.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+}
+
+.icon-home {
+    background: url('../Images/icon/icon-home.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-tick {
+    background: url('../Images/icon/icon-tick.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-refresh {
+    background: url('../Images/icon/icon-refresh.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+
+.icon-detail {
+    background: url('../Images/icon/icon-detail.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-history {
+    background: url('../Images/icon/icon-history.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-report {
+    background: url('../Images/icon/icon-report.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+}
+
+.icon-cancel {
+    background: url('../Images/icon/icon-cancel.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+
+.icon-info {
+    background: url('../Images/icon/icon-info.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.icon-warning {
+    background: url('../Images/icon/icon-warning.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+}
+
+.icon-print {
+    background: url('../Images/icon/icon-print.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+}
+
+.icon-upfile {
+    background: url('../Images/icon/icon-upfile.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+}
+
+.icon-userOnline {
+    background: url('../Images/icon/icon-userOnline.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+
+.icon-userOffline {
+    background: url('../Images/icon/icon-userOffline.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+
+.icon-help {
+    background: url('../Images/icon/help.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-bullet {
+    background: url('../Images/icon/icon-bullet.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+}
+
+.icon-mac {
+    background: url('../Images/icon/icon-mac.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+}
+
+.icon_ProccesReport {
+    background: url('../Images/icon/icon_ProccesReport.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+}
+
+.icon_view {
+    background: url('../Images/icon/icon_view.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 10px;
+}
+
+.icon_why {
+    background: url('../Images/icon/icon_why.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+}
+
+.icon_setting {
+    background: url('../Images/icon/icon_setting.png') 0 0 no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+}
+/*Khối các thành phần Control khác gòm DatePicker, Placeholder*/
+.bkav-datepicker {
+    width: 70px;
+    display: inline;
+    padding-left: 4px;
+}
+
+::-webkit-input-placeholder phr {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+.lin {
+    border: 1px solid #bdbdbd;
+}
+
+.pdd-left-4 {
+    padding-left: 4px;
+}
+
+.pdd-left-6 {
+    padding-left: 6px;
+}
+
+.pdd-left-10 {
+    padding-left: 10px;
+}
+
+.pdd-right-4 {
+    padding-right: 4px;
+}
+
+.pdd-top-6 {
+    padding-top: 6px;
+}
+
+.mrg-left-3 {
+    margin-left: 3px;
+}
+
+.mrg-left-4 {
+    margin-left: 4px;
+}
+
+.float-right {
+    float: right;
+}
+/************************************************** */
+/*Khối style viết kế thừa các style chung, đề nghị comment rõ Account viết và chú thích ngắn gọn*/
+/*Khối style viết kế thừa các style chung, đề nghị comment rõ Account viết và chú thích ngắn gọn*/
+#ui-datepicker-div {
+    top: -2px !important;
+    left: 182px !important;
+}
+
+.div-table-Info {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.divNameTable {
+    margin: 7px 0px;
+}
+
+.lblNameTable {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1470ca;
+}
+
+.table-Info > tr > td {
+    padding-top: 3px;
+}
+
+.divPagging {
+    padding-top: 8px;
+}
+
+.divHelp {
+    float: right !important;
+    padding-top: 5px !important;
+    padding-right: 6px !important;
+}
+
+.aHelp {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.divQuotes {
+    padding: 15px 0px;
+}
+
+.ghichu {
+    font-family: Helvetica Neue,Arial, sans-serif;
+    font-size: 14px;
+}

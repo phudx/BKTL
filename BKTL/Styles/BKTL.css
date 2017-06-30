@@ -1,0 +1,75 @@
+﻿::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2281b7;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #ddd;
+}
+.th-note{
+    width:150px !important;
+}
+.th-function{
+    width:80px !important;
+}
+.th-code{
+    width:68px !important;
+}
+.th-sex{
+    width:30px !important;
+}
+.th-date{
+    width:70px !important;
+}
+.page-header{
+    color:#1470ca
+}
+.form-control{
+        /*height: 30px !important;*/
+        padding: 2px 4px !important;
+}
+
+fieldset {
+    border: 1px solid #bdbdbd !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+    padding-left: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+}
+legend {
+    width: inherit !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    padding-bottom: 10px !important;
+    margin-left: 10px !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    font-family: "Arial" !important;
+    color: #1470ca !important;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+}
+.resize-none {
+    resize: none;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+label {
+    font-weight: normal !important;
+}
+.control-label {
+    padding-right: 4px !important;
+}

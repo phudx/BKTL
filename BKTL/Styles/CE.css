@@ -1,0 +1,29 @@
+﻿.divContentReadMore
+{
+    position: relative;    
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    max-height: 80px;/*Chiều cao tối đa của text*/
+}
+.aReadMore
+{
+    display: none;    
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    width: 12px;/*Chiều rộng của icon*/
+    padding-right: 13px;/*Căn phải icon*/
+    padding-left: 20px;/*Chiều rộng nền gradient bên trái (phía dưới icon)*/
+    padding-top: 20px;/*Chiều rộng nền gradient bên trên (phía dưới icon)*/
+    padding-bottom: 0px;/*Chiều rộng nền gradient bên dưới (phía dưới icon)*/
+    z-index: 1;
+}
+
+.divtransparentReadMore {
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(to bottom, rgba(255, 254, 254, 0.24), rgba(255, 254, 254, 0.35), rgba(255, 254, 254, 0.82));
+    width: 100%;
+}

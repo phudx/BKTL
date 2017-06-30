@@ -1,0 +1,374 @@
+﻿::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2281b7;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #ddd;
+}
+table>thead>tr>th{
+    text-align:center
+}
+.logoHoangPhuc {
+    width: 60px;
+    margin-top: -17px;
+}
+
+.titleHoangPhuc {
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+table#dataTables-example > thead > tr > th {
+    background: #C5CAE9;
+    color: #3F51B5;
+}
+
+.btnFunction {
+    float: right;
+    margin: -13px 0px 7px 6px !important;
+}
+
+.validate-form {
+    padding-bottom: 10px;
+    color: red;
+}
+
+.modal-body-delete {
+    position: relative;
+    padding: 15px;
+}
+
+.title-control-page {
+    margin-top: -35px;
+}
+
+#imgXoa {
+    width: 14px !important;
+}
+
+#imgDetail {
+    margin-left: 3px !important;
+}
+
+.table-render-html {
+    width: 100%;
+}
+
+.resize-none {
+    resize: none;
+}
+.div-invoice-money{
+    margin-top:-12px !important
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+.lblNameTable {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1470ca;
+}
+
+.control-label {
+    padding-right: 4px !important;
+}
+
+.tooltip-info:focus, .tooltip-info:hover {
+    color: #333 !important;
+    text-decoration: none;
+}
+
+.tooltip-info {
+    position: relative;
+    color: #333 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+label {
+    font-weight: normal !important;
+}
+.table-filter table tbody tr td:nth-child(3) label,
+.table-filter table tbody tr td:nth-child(5) label,
+#table-filter table tbody tr td:nth-child(3) label,
+#table-filter table tbody tr td:nth-child(5) label {
+    padding-left: 15px;
+}
+.table-filter table tbody tr:nth-child(2) td:nth-child(2) select,
+.table-filter table tbody tr:nth-child(2) td:nth-child(4) select,
+.table-filter table tbody tr:nth-child(2) td:nth-child(6) select,
+.table-filter table tbody tr:nth-child(2) td:nth-child(2) input,
+.table-filter table tbody tr:nth-child(2) td:nth-child(4) input,
+.table-filter table tbody tr:nth-child(2) td:nth-child(6) input,
+#table-filter table tbody tr:nth-child(2) td:nth-child(2) select,
+#table-filter table tbody tr:nth-child(2) td:nth-child(4) select,
+#table-filter table tbody tr:nth-child(2) td:nth-child(6) select,
+#table-filter table tbody tr:nth-child(2) td:nth-child(2) input,
+#table-filter table tbody tr:nth-child(2) td:nth-child(4) input,
+#table-filter table tbody tr:nth-child(2) td:nth-child(6) input {
+    margin-top: 10px;
+}
+.table-filter table tbody tr:nth-child(2) td:nth-child(1) label,
+.table-filter table tbody tr:nth-child(2) td:nth-child(3) label,
+.table-filter table tbody tr:nth-child(2) td:nth-child(5) label,
+
+#table-filter table tbody tr:nth-child(2) td:nth-child(1) label,
+#table-filter table tbody tr:nth-child(2) td:nth-child(3) label,
+#table-filter table tbody tr:nth-child(2) td:nth-child(5) label {
+    padding-top: 15px;
+}
+#ProductInfo>tbody>tr>td:first-child{
+    padding-bottom:13px
+}
+.table-total-money>tbody>tr>td:first-child{
+    padding-bottom:10px
+}
+.div-strong-detail{
+    padding-bottom:15px
+}
+.form-control-detail{
+    margin-bottom:10px
+}
+#cboType{
+    width:200px
+}
+.control-label-detail{
+    padding-bottom:4px
+}
+.table-filter table tbody tr:nth-child(1) td:nth-child(1) label,
+.table-filter table tbody tr:nth-child(1) td:nth-child(3) label,
+.table-filter table tbody tr:nth-child(1) td:nth-child(5) label,
+
+#table-filter table tbody tr:nth-child(1) td:nth-child(1) label,
+#table-filter table tbody tr:nth-child(1) td:nth-child(3) label,
+#table-filter table tbody tr:nth-child(1) td:nth-child(5) label {
+    padding-top: 5px;
+}
+#InvoiceInfo>tbody>tr>td>label{
+    padding-right:4px !important;
+    padding-bottom: 10px !important;
+}
+#InvoiceInfo>tbody>tr>td>strong{
+    padding-bottom:4px !important
+}
+.div-strong{
+    margin-top: -14px !important;
+}
+.table > thead > tr > th > a.tooltip-top,
+.table > thead > tr > td > a.tooltip-top:hover {
+    color: #3F51B5 !important;
+    text-decoration: none;
+}
+.table > tbody > tr > td > a.tooltip-top,
+.table > tbody > tr > th > a.tooltip-top:hover{
+    text-decoration: none;
+    color: #333 !important;
+
+}
+/**************** Tooltip Styles *****************************/
+a:hover {
+    text-decoration: none;
+}
+
+label > a.tooltip-top,
+label > a.tooltip-top:hover {
+    color: #333 !important;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center !important;
+}
+
+[data-tooltip], .tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+    [data-tooltip]:before, [data-tooltip]:after, .tooltip:before, .tooltip:after {
+        position: absolute;
+        visibility: hidden;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+        -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+        transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        pointer-events: none;
+    }
+
+    [data-tooltip]:hover:before, [data-tooltip]:hover:after, [data-tooltip]:focus:before, [data-tooltip]:focus:after, .tooltip:hover:before, .tooltip:hover:after, .tooltip:focus:before, .tooltip:focus:after {
+        visibility: visible;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+
+    .tooltip:before, [data-tooltip]:before {
+        z-index: 1001;
+        border: 6px solid transparent;
+        background: transparent;
+        content: "";
+    }
+
+    .tooltip:after, [data-tooltip]:after {
+        z-index: 1000;
+        padding: 8px;
+        min-width: 150px;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        background-color: hsla(0, 0%, 20%, 0.9);
+        color: #fff;
+        content: attr(data-tooltip);
+        font-size: 12px !important;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+.resize-none {
+    resize: none;
+}
+
+[data-tooltip]:before, [data-tooltip]:after, .tooltip:before, .tooltip:after, .tooltip-top:before, .tooltip-top:after {
+    bottom: 100%;
+    left: 50%;
+}
+
+[data-tooltip]:before, .tooltip:before, .tooltip-top:before {
+    margin-left: -6px;
+    margin-bottom: -12px;
+    border-top-color: #000;
+    border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+[data-tooltip]:after, .tooltip:after, .tooltip-top:after {
+    margin-left: -80px;
+}
+
+[data-tooltip]:hover:before, [data-tooltip]:hover:after, [data-tooltip]:focus:before, [data-tooltip]:focus:after, .tooltip:hover:before, .tooltip:hover:after, .tooltip:focus:before, .tooltip:focus:after, .tooltip-top:hover:before, .tooltip-top:hover:after, .tooltip-top:focus:before, .tooltip-top:focus:after {
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    transform: translateY(-12px);
+}
+
+.tooltip-left:before, .tooltip-left:after {
+    right: 100%;
+    bottom: 50%;
+    left: auto;
+}
+
+.tooltip-left:before {
+    margin-left: 0;
+    margin-right: -12px;
+    margin-bottom: 0;
+    border-top-color: transparent;
+    border-left-color: #000;
+    border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-left:hover:before, .tooltip-left:hover:after, .tooltip-left:focus:before, .tooltip-left:focus:after {
+    -webkit-transform: translateX(-12px);
+    -moz-transform: translateX(-12px);
+    transform: translateX(-12px);
+}
+
+.tooltip-bottom:before, .tooltip-bottom:after {
+    top: 100%;
+    bottom: auto;
+    left: 50%;
+}
+
+.tooltip-bottom:before {
+    margin-top: -12px;
+    margin-bottom: 0;
+    border-top-color: transparent;
+    border-bottom-color: #000;
+    border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-bottom:hover:before, .tooltip-bottom:hover:after, .tooltip-bottom:focus:before, .tooltip-bottom:focus:after {
+    -webkit-transform: translateY(12px);
+    -moz-transform: translateY(12px);
+    transform: translateY(12px);
+}
+
+.tooltip-right:before, .tooltip-right:after {
+    bottom: 50%;
+    left: 100%;
+}
+
+.tooltip-right:before {
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-top-color: transparent;
+    border-right-color: #000;
+    border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-right:hover:before, .tooltip-right:hover:after, .tooltip-right:focus:before, .tooltip-right:focus:after {
+    -webkit-transform: translateX(12px);
+    -moz-transform: translateX(12px);
+    transform: translateX(12px);
+}
+
+.tooltip-left:before, .tooltip-right:before {
+    top: 3px;
+}
+
+.tooltip-left:after, .tooltip-right:after {
+    margin-left: 0;
+    margin-bottom: -16px;
+}
+
+fieldset {
+    border: 1px solid #72cbf6 !important;
+    background-color: #f4f4f4 !important;
+    padding-left: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+}
+
+legend {
+    width:15% !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 0px !important;
+    color: #1591c0 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    border-bottom: none !important;
+}
+.th-note{
+    width:150px !important;
+}
+.th-function{
+    width:80px !important;
+}
+.th-code{
+    width:68px !important;
+}
+.th-sex{
+    width:30px !important;
+}
+.th-date{
+    width:70px !important;
+}
+.page-header{
+    color:#1470ca
+}

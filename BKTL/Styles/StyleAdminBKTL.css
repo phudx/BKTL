@@ -1,0 +1,34 @@
+﻿.btnFunction {
+    float: right;
+    margin: -13px 0px 7px 6px !important;
+}
+table>thead>tr>th{
+    text-align:center
+}
+table#dataTables-example > thead > tr > th {
+    background: #C5CAE9;
+    color: #3F51B5;
+}
+.validate-form {
+    padding-bottom: 10px;
+    color: red;
+}
+
+.modal-body-delete {
+    position: relative;
+    padding: 15px;
+}
+
+.title-control-page {
+    margin-top: -35px;
+}
+
+.table-render-html {
+    width: 100%;
+}
+.table-filter table tbody tr:nth-child(1) td:nth-child(1) label, .table-filter table tbody tr:nth-child(1) td:nth-child(3) label, .table-filter table tbody tr:nth-child(1) td:nth-child(5) label, #table-filter table tbody tr:nth-child(1) td:nth-child(1) label, #table-filter table tbody tr:nth-child(1) td:nth-child(3) label, #table-filter table tbody tr:nth-child(1) td:nth-child(5) label {
+    padding-top: 5px;
+}
+.table-filter table tbody tr td:nth-child(3) label, .table-filter table tbody tr td:nth-child(5) label, #table-filter table tbody tr td:nth-child(3) label, #table-filter table tbody tr td:nth-child(5) label {
+    padding-left: 15px;
+}
